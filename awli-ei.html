@@ -19,7 +19,7 @@
 <body id="body" class="container p-3">
 
   <!--  APPLICATION - VERSION - HEADER  -->
-  <h3>Apply With LinkedIn-EI 3.0 V - 2 </h3>
+  <h3>Apply With LinkedIn-EI 3.0 V - 4 </h3>
 
 
 
@@ -81,6 +81,7 @@
   </div>
 
   <div id="widget-container">
+    <!--   V-1   -->
     <!--     
       <script src="https://platform.linkedin-ei.com/xdoor/scripts/in.js">
       api_key: 77q8xmpyw5z8fj
@@ -89,6 +90,7 @@
     </script>
     -->
     
+    <!--   V-2   -->
     <!--     
     <script src="https://www.linkedin-ei.com/xdoor/scripts/in.js">
         api_key: "956165lql90p3w"
@@ -96,13 +98,23 @@
         userSessionEnabled: true
     </script>
      -->
+    
+    <!--   V-3   -->
+    <!--
     <script src="https://www.linkedin-ei.com/xdoor/scripts/in.js">
         api_key: "956165lql90p3w"
         extensions: OAuth @https://udduttaatlinkedIn.github.io/widget-inmon-test/oauth/widget.js
         userSessionEnabled: true
     </script>
+    -->
 
-
+    <!--   V-4   -->
+    <script src="https://www.linkedin-ei.com/xdoor/scripts/in.js">
+        api_key: "78rm7r188yqdyg"
+        extensions: OAuth @https://udduttaatlinkedIn.github.io/widget-inmon-test/oauth/widget.js
+        userSessionEnabled: true
+    </script>
+    
     
     <div class="container">
       <script type="IN/AwliWidget" data-integration-context="urn:li:organization:1337" data-company-job-code="test123" data-mode="BUTTON_DATA"
@@ -112,6 +124,7 @@
   <form id="profile-data-container" class="container well">
     <h4>Profile data will show here</h4>
     <div id="profile_data_form"></div>
+
     <!-- <div class="form-group">
       <label for="firstname">First Name</label>
       <input class="form-control" type="text" id="firstname">
